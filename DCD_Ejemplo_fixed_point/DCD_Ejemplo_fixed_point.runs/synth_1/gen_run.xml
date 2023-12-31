@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1702573688">
+  <File Type="PA-TCL" Name="Multiplicacion_fixed_point.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Multiplicacion_fixed_point_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Multiplicacion_fixed_point_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Multiplicacion_fixed_point.vds"/>
+  <File Type="RDS-UTIL" Name="Multiplicacion_fixed_point_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Multiplicacion_fixed_point_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Multiplicacion_fixed_point.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Multiplicacion_fixed_point_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Multiplicacion_fixed_point_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../../../Xilinx/Vivado/2020.1/data/vhdl/2008/IEEE/fixed_pkg.vhdl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../Xilinx/Vivado/2020.1/data/vhdl/2008/IEEE/fixed_generic_pkg.vhdl">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Multiplicacion_fixed_point.vhd">
+      <FileInfo SFType="VHDL2008">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Multiplicacion_fixed_point"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

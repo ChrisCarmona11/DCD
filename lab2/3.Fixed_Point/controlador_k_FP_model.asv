@@ -1,0 +1,82 @@
+function u = controlador_k_FP_model(yk, setpoints, C)
+%Simula el c�lculo de la se�al de control del controlador C en tiempo
+%discreto
+global ek
+
+% int_a=22;
+% frac_a=12;  
+res_a=fimath( 'RoundMode','Floor','OverflowMode','Saturate');
+
+
+as = C.den{1,1};
+bs = C.num{1,1};
+
+en=numerictype(1,38,32);
+un=numerictype(1,24,13); 
+     % b0*z^2+b1*z+b2
+     %---------------
+     % a0*z^2+a1*z+a2
+
+%Parametros del controlador
+%a0 = as(1);
+a1 = as(2);
+a1_f= double(fi(a1,1,20,18));
+a2 = as(3);
+a2_f = double(fi(a2,1,20,19));
+b0 = bs(1);
+b0_f = double(fi(b0,0,20,13));
+b1 = bs(2);
+b1_f = double(fi(b1,1,20,11));
+b2 = bs(3);
+b2_f = double(fi(b2,0,20,13));
+
+% u(k)=b0.e(k)+b1*e(k-1)+b2*e(k-2)-a1*u(k-1)-a2*u(k-2);
+
+%Realimentaci�n
+setpoints_f = fi(setpoints,1,12,9);
+yk_f = fi(yk,1,12,8);
+ek = setpoints_f - yk_f;
+ek = fi(ek,en);
+
+%Registros
+persistent ek1 ek2 uk1 uk2
+
+%Inicializamos los registros
+if isempty (ek1)
+    ek1=0;
+end
+if isempty (ek2)
+    ek2=0;
+end
+if isempty (uk1)
+    uk1=0;
+end
+if isempty (uk2)
+    uk2=0;
+end
+
+ek1=(fi(ek1,en,res_a));
+ek2=(fi(ek2,en,res_a));
+uk1=(fi(uk1,un,res_a));
+uk2=(fi(uk2,un,res_a));
+
+
+
+%C�lculo de la se�al de control
+be0 = double(fi(b0_f*ek,1,40,29));
+be1 = double(fi(b1_f*ek1,1,40,28));
+be2 = double(fi(b2_f*ek2,1,40,29));
+au1 = double(fi(a1_f*uk1,1,46,36));
+au2 = double(fi(a2_f*uk2,1,45,35));
+be01 = double(fi(be0+be1,1,52,36));
+be012 =double(fi( be01+be2,1,64,52,res_a));
+au12 = double(fi(au1+au2,1,57,45,res_a));
+uk = fi(be012 - au12,un);
+
+
+%Actualizamos los registros
+ek2=ek1;
+ek1=ek;
+uk2=uk1;
+uk1=uk;
+u=double(uk);

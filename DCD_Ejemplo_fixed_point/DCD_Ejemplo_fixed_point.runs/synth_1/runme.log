@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log Multiplicacion_fixed_point.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplicacion_fixed_point.tcl
+

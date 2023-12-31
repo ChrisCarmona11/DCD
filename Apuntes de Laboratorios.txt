@@ -1,0 +1,8 @@
+Ejercicio 4 falta una ecuación pero siguiendo el proceso completo se ve donde falla, le debe fallar algún subindice tambien, OJO!
+
+Para que el siguiente bloque herede el periodo de muestreo del bloque anterior se pone un (-1) en el parametro de muestreo.
+
+punto 3 del ejemplo corto. Usar el control system design and analysis 
+
+transicion s_z -delta 
+

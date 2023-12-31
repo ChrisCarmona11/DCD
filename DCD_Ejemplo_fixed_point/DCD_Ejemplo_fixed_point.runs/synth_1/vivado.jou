@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec 14 18:08:11 2023
+# Process ID: 340
+# Current directory: C:/Users/chris/Masterr/DCD/DCD_Ejemplo_fixed_point/DCD_Ejemplo_fixed_point.runs/synth_1
+# Command line: vivado.exe -log Multiplicacion_fixed_point.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplicacion_fixed_point.tcl
+# Log file: C:/Users/chris/Masterr/DCD/DCD_Ejemplo_fixed_point/DCD_Ejemplo_fixed_point.runs/synth_1/Multiplicacion_fixed_point.vds
+# Journal file: C:/Users/chris/Masterr/DCD/DCD_Ejemplo_fixed_point/DCD_Ejemplo_fixed_point.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Multiplicacion_fixed_point.tcl -notrace
