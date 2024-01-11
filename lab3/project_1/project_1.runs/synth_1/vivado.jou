@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jan 11 14:11:49 2024
+# Process ID: 10872
+# Current directory: C:/Users/chris/Masterr/DCD/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log Mult_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mult_test.tcl
+# Log file: C:/Users/chris/Masterr/DCD/project_1/project_1.runs/synth_1/Mult_test.vds
+# Journal file: C:/Users/chris/Masterr/DCD/project_1/project_1.runs/synth_1\vivado.jou
+# Running On: Laptop_Chris, OS: Windows, CPU Frequency: 1608 MHz, CPU Physical cores: 6, Host memory: 17005 MB
+#-----------------------------------------------------------
+source Mult_test.tcl -notrace
