@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Master/DCD/MagLev/lab4_MagLev_Aitor_post_implementacionzip/lab4_MagLev_copia2.sim/sim_1/synth/timing/xsim/tb_top_controller_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bloq_Register
+INFO: [VRFC 10-311] analyzing module Bloq_Register__parameterized1
+INFO: [VRFC 10-311] analyzing module Bloq_Register__parameterized5
+INFO: [VRFC 10-311] analyzing module Top_controller
+INFO: [VRFC 10-311] analyzing module clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_clk_wiz
+INFO: [VRFC 10-311] analyzing module controller_delta_adc
+INFO: [VRFC 10-311] analyzing module glbl

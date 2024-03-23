@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../lab4_MagLev_copia2.gen/sources_1/ip/clk_wiz" \
+"tb_top_controller_time_synth.v" \
+
+# Do not sort compile order
+nosort

@@ -4,17 +4,5 @@ Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
 Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling package ieee.fixed_float_types
-Compiling package ieee.fixed_pkg
-Compiling package ieee.math_real
-Compiling architecture behavioral of entity xil_defaultlib.Mult_test [mult_test_default]
-Compiling architecture behavioral of entity xil_defaultlib.mult_test_tb
-Built simulation snapshot Mult_test_tb_behav
+ERROR: [VRFC 10-664] expression has 12 elements ; expected 8 [C:/Users/chris/Master/DCD/Lab3/project_1/project_1.srcs/sim_1/new/Mult_test_tb.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mult_test_tb in library work failed.

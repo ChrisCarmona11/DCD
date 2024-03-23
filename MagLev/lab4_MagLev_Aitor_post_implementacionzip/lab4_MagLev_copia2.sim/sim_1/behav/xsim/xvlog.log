@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Master/DCD/MagLev/lab4_MagLev_Aitor_post_implementacionzip/lab4_MagLev_copia2.gen/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Master/DCD/MagLev/lab4_MagLev_Aitor_post_implementacionzip/lab4_MagLev_copia2.gen/sources_1/ip/clk_wiz/clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Master/DCD/MagLev/lab4_MagLev_Aitor_post_implementacionzip/lab4_MagLev_copia2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

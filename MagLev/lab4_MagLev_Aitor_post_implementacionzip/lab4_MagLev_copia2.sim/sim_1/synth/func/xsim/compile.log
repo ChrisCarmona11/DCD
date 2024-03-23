@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Aitor/UPV-EHU Fisika+IE/MSTER/DCD/Sesion_4/lab4_MagLev_copia2/lab4_MagLev_copia2.sim/sim_1/synth/func/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Aitor/UPV-EHU Fisika+IE/MSTER/DCD/Sesion_4/lab4_MagLev_copia2/lab4_MagLev_copia2.sim/sim_1/synth/func/xsim/tb_top_controller_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Bloq_Register'
+INFO: [VRFC 10-3107] analyzing entity '\Bloq_Register__parameterized1\'
+INFO: [VRFC 10-3107] analyzing entity '\Bloq_Register__parameterized5\'
+INFO: [VRFC 10-3107] analyzing entity 'clk_wiz_clk_wiz'
+INFO: [VRFC 10-3107] analyzing entity 'clk_wiz'
+INFO: [VRFC 10-3107] analyzing entity 'controller_delta_adc'
+INFO: [VRFC 10-3107] analyzing entity 'Top_controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Aitor/UPV-EHU Fisika+IE/MSTER/DCD/Sesion_4/lab4_MagLev_copia2/lab4_MagLev_copia2.srcs/sim_1/new/tb_top_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top_controller'

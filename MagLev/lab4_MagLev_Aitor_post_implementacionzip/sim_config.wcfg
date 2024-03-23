@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,401.000001 us"></ZoomEndTime>
+      <Cursor1Time time="398.135000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="140"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/tb_top_controller/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/clk_5m" type="logic">
+      <obj_property name="ElementShortName">clk_5m</obj_property>
+      <obj_property name="ObjectShortName">clk_5m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/sync" type="logic">
+      <obj_property name="ElementShortName">sync</obj_property>
+      <obj_property name="ObjectShortName">sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/setpoint" type="array">
+      <obj_property name="ElementShortName">setpoint[3:-14]</obj_property>
+      <obj_property name="ObjectShortName">setpoint[3:-14]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/yk" type="array">
+      <obj_property name="ElementShortName">yk[1:-16]</obj_property>
+      <obj_property name="ObjectShortName">yk[1:-16]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/uk" type="array">
+      <obj_property name="ElementShortName">uk[13:-10]</obj_property>
+      <obj_property name="ObjectShortName">uk[13:-10]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/uk_pre_sat" type="array">
+      <obj_property name="ElementShortName">uk_pre_sat[13:-10]</obj_property>
+      <obj_property name="ObjectShortName">uk_pre_sat[13:-10]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">10</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/ek" type="array">
+      <obj_property name="ElementShortName">ek[3:-16]</obj_property>
+      <obj_property name="ObjectShortName">ek[3:-16]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/ek1" type="array">
+      <obj_property name="ElementShortName">ek1[10:-7]</obj_property>
+      <obj_property name="ObjectShortName">ek1[10:-7]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">7</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/ek2" type="array">
+      <obj_property name="ElementShortName">ek2[10:-7]</obj_property>
+      <obj_property name="ObjectShortName">ek2[10:-7]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">7</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/uk1" type="array">
+      <obj_property name="ElementShortName">uk1[17:-5]</obj_property>
+      <obj_property name="ObjectShortName">uk1[17:-5]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/uk2" type="array">
+      <obj_property name="ElementShortName">uk2[17:-5]</obj_property>
+      <obj_property name="ObjectShortName">uk2[17:-5]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/be0" type="array">
+      <obj_property name="ElementShortName">be0[13:-5]</obj_property>
+      <obj_property name="ObjectShortName">be0[13:-5]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/be1" type="array">
+      <obj_property name="ElementShortName">be1[13:-5]</obj_property>
+      <obj_property name="ObjectShortName">be1[13:-5]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">5</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/be2" type="array">
+      <obj_property name="ElementShortName">be2[9:-4]</obj_property>
+      <obj_property name="ObjectShortName">be2[9:-4]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/au1" type="array">
+      <obj_property name="ElementShortName">au1[13:-4]</obj_property>
+      <obj_property name="ObjectShortName">au1[13:-4]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/au2" type="array">
+      <obj_property name="ElementShortName">au2[13:-4]</obj_property>
+      <obj_property name="ObjectShortName">au2[13:-4]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/be01" type="array">
+      <obj_property name="ElementShortName">be01[13:-4]</obj_property>
+      <obj_property name="ObjectShortName">be01[13:-4]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/be012" type="array">
+      <obj_property name="ElementShortName">be012[13:-4]</obj_property>
+      <obj_property name="ObjectShortName">be012[13:-4]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_controller/Inst_top/Inst_controlador_delta/au12" type="array">
+      <obj_property name="ElementShortName">au12[13:-4]</obj_property>
+      <obj_property name="ObjectShortName">au12[13:-4]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+</wave_config>

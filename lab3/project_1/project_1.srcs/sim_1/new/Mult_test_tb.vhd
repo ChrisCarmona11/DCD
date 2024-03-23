@@ -41,14 +41,16 @@ end Mult_test_tb;
 architecture Behavioral of Mult_test_tb is
 component Mult_test 
 Port (
-        signal A_IN: in sfixed(3 downto -4);
-        signal B_IN: in sfixed(3 downto -4); 
-        signal C_OUT: out sfixed(7 downto -4)   
+        signal A_IN: in sfixed(7 downto -3);
+        signal B_IN: in sfixed(2 downto -9); 
+        signal C_OUT: out sfixed(10 downto -12)   
      );
 
 end component;
-signal a,b: sfixed(3 downto -4);
-signal salida:  sfixed(7 downto -4); 
+signal a: sfixed(7 downto -3);
+signal b: sfixed(2 downto -9);
+signal b_double: sfixed(2 downto -5);
+signal salida:  sfixed(10 downto -12); 
 begin
 
 UUT: Mult_test port map(A_IN=>a,B_IN=>b,C_OUT=>salida);
@@ -57,9 +59,10 @@ begin
 --a="000000000000.111"
    
  -- wait for 100 ns;
-  a<=to_sfixed(1.5677,3,-4);
+  a<=to_sfixed(1.5677,7,-3);
   --wait for 100 ns;
-  b<=to_sfixed(1.5677,3,-4);
+  b<=to_sfixed(1.3658,2,-9);
+  b_double<=to_sfixed(1.3658,2,-9);
   wait for 100 ns;
  -- salida=>C_OUT;
 end process;

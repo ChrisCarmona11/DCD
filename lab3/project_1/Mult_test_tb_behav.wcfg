@@ -11,34 +11,42 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
-      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+      <ZoomEndTime time="167.083 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="112"></NameColumnWidth>
-      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+      <ValueColumnWidth column_width="65"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="3" />
+   <WVObjectSize size="4" />
    <wvobject fp_name="/Mult_test_tb/a" type="array">
-      <obj_property name="ElementShortName">a[3:-4]</obj_property>
-      <obj_property name="ObjectShortName">a[3:-4]</obj_property>
+      <obj_property name="ElementShortName">a[7:-3]</obj_property>
+      <obj_property name="ObjectShortName">a[7:-3]</obj_property>
       <obj_property name="Radix">REALRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
-      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_fractionWidth">3</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
    <wvobject fp_name="/Mult_test_tb/b" type="array">
-      <obj_property name="ElementShortName">b[3:-4]</obj_property>
-      <obj_property name="ObjectShortName">b[3:-4]</obj_property>
+      <obj_property name="ElementShortName">b[2:-9]</obj_property>
+      <obj_property name="ObjectShortName">b[2:-9]</obj_property>
       <obj_property name="Radix">REALRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
-      <obj_property name="radix_fractionWidth">4</obj_property>
+      <obj_property name="radix_fractionWidth">9</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
    <wvobject fp_name="/Mult_test_tb/salida" type="array">
-      <obj_property name="ElementShortName">salida[7:-4]</obj_property>
-      <obj_property name="ObjectShortName">salida[7:-4]</obj_property>
+      <obj_property name="ElementShortName">salida[10:-12]</obj_property>
+      <obj_property name="ObjectShortName">salida[10:-12]</obj_property>
       <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_test_tb/salida" type="array">
+      <obj_property name="ElementShortName">salida[10:-12]</obj_property>
+      <obj_property name="ObjectShortName">salida[10:-12]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
       <obj_property name="radix_fractionWidth">4</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>

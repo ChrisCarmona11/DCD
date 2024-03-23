@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Master/DCD/Lab3/Lab3Controlador_aitor/Lab3Controlador_aitor.sim/sim_1/impl/timing/xsim/tb_control_delta_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller_delta_adc
+INFO: [VRFC 10-311] analyzing module glbl

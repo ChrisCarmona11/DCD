@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Lab3Controlador_aitor.srcs/sources_1/imports/Downloads/Bloq_Register 1.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../Lab3Controlador_aitor.srcs/sources_1/imports/Downloads/controller_delta_adc 1.vhd" \
+"../../../../../Lab3Controlador_aitor.srcs/sim_1/imports/Downloads/tb_control_delta 1.vhd" \
+
+# Do not sort compile order
+nosort

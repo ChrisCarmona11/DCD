@@ -1,0 +1,91 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Sun Jan 21 18:49:44 2024
+| Host         : YPSILON running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_controller_control_sets_placed.rpt
+| Design       : Top_controller
+| Device       : xc7a35ti
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    13 |
+|    Minimum number of control sets                        |    13 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    69 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    13 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    11 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            2 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              62 |           25 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             169 |           40 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+-----------------------------------------------+-----------------------------------------------------+------------------+----------------+--------------+
+|        Clock Signal       |                 Enable Signal                 |                   Set/Reset Signal                  | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------------+-----------------------------------------------+-----------------------------------------------------+------------------+----------------+--------------+
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/uk[-9]_i_1_n_0         |                                                     |                1 |              2 |         2.00 |
+|  CLK_5MHz/inst/CLK_5M_OUT |                                               |                                                     |                2 |              5 |         2.50 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/Register_uk1/SYNC_IN   | Inst_controlador_delta/Register_ek2/q[9]_i_1__1_n_0 |                5 |             17 |         3.40 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/be012[13]_i_2_n_0      | Inst_controlador_delta/be012_6                      |                3 |             18 |         6.00 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/au1[13]_i_2_n_0        | Inst_controlador_delta/au1_2                        |                3 |             18 |         6.00 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/be01[13]_i_2_n_0       | Inst_controlador_delta/be01_5                       |                3 |             18 |         6.00 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/ek0                    |                                                     |                7 |             18 |         2.57 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/uk_pre_sat[13]_i_2_n_0 | Inst_controlador_delta/uk_pre_sat[13]_i_1_n_0       |                4 |             18 |         4.50 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/be1[13]_i_2_n_0        | Inst_controlador_delta/be1                          |                5 |             19 |         3.80 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/be0[13]_i_2_n_0        | Inst_controlador_delta/be0_4                        |                5 |             19 |         3.80 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/ek[3]_i_2_n_0          | Inst_controlador_delta/ek_3                         |                5 |             20 |         4.00 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/uk[-9]_i_1_n_0         | Inst_controlador_delta/uk[13]_i_1_n_0               |                7 |             22 |         3.14 |
+|  CLK_5MHz/inst/CLK_5M_OUT | Inst_controlador_delta/Register_uk1/SYNC_IN   |                                                     |               17 |             42 |         2.47 |
++---------------------------+-----------------------------------------------+-----------------------------------------------------+------------------+----------------+--------------+
+
+
